@@ -7,7 +7,7 @@
 // Email
 // ---------------------------------------------------------------------
 
-Email::Email() : valor("") {}
+Email::Email() : valor("parte-local@domínio") {}
 
 Email::Email(const std::string& valorInicial) {
     setValor(valorInicial);
@@ -129,7 +129,7 @@ std::string Estado::toString() const {
 // Identificador
 // ---------------------------------------------------------------------
 
-Identificador::Identificador() : valor("") {}
+Identificador::Identificador() : valor("AAA000") {}
 
 Identificador::Identificador(const std::string& valorInicial) {
     setValor(valorInicial);
@@ -184,7 +184,7 @@ void Limite::setValor(int novoValor) {
 // Nome
 // ---------------------------------------------------------------------
 
-Nome::Nome() : valor("") {}
+Nome::Nome() : valor("Nome") {}
 
 Nome::Nome(const std::string& valorInicial) {
     setValor(valorInicial);
@@ -301,7 +301,7 @@ std::string Prioridade::toString() const {
 // Senha
 // ---------------------------------------------------------------------
 
-Senha::Senha() : valor("") {}
+Senha::Senha() : valor("Abc12") {}
 
 Senha::Senha(const std::string& valorInicial) {
     setValor(valorInicial);
@@ -376,7 +376,7 @@ std::string Tamanho::toString() const {
 // Texto
 // ---------------------------------------------------------------------
 
-Texto::Texto() : valor("") {}
+Texto::Texto() : valor("Texto.") {}
 
 Texto::Texto(const std::string& valorInicial) {
     setValor(valorInicial);
@@ -423,7 +423,7 @@ void Texto::setValor(const std::string& novoValor) {
 // Timestamp
 // ---------------------------------------------------------------------
 
-Timestamp::Timestamp() : valor(""), dia(1), mes("JAN"), ano(2000), horario("00:00") {}
+Timestamp::Timestamp() : valor("01-JAN-2000-00:00"), dia(1), mes("JAN"), ano(2000), horario("00:00") {}
 
 Timestamp::Timestamp(const std::string& valorInicial) {
     setValor(valorInicial);
