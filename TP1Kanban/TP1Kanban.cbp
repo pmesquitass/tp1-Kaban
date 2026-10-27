@@ -30,12 +30,24 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+<<<<<<< HEAD
+=======
+		<Unit filename="Apresentacao.cpp" />
+		<Unit filename="Apresentacao.h" />
+>>>>>>> 1c2bbb4 (modificacoes e adicao da camada de apresentacao e servico)
 		<Unit filename="Dominios.cpp" />
 		<Unit filename="Dominios.h" />
 		<Unit filename="Entidades.cpp" />
 		<Unit filename="Entidades.h" />
+<<<<<<< HEAD
+=======
+		<Unit filename="Interfaces.h" />
+		<Unit filename="Servicos.cpp" />
+		<Unit filename="Servicos.h" />
+>>>>>>> 1c2bbb4 (modificacoes e adicao da camada de apresentacao e servico)
 		<Unit filename="main.cpp" />
 		<Unit filename="teste.cpp" />
 		<Unit filename="testes.hpp" />
